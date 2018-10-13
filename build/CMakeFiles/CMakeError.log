@@ -1,0 +1,682 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e0fde/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e0fde.dir/build.make CMakeFiles/cmTC_e0fde.dir/build
+make[1]: Entering directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e0fde.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_e0fde.dir/CheckSymbolExists.c.o   -c /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e0fde
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0fde.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_e0fde.dir/CheckSymbolExists.c.o  -o cmTC_e0fde 
+CMakeFiles/cmTC_e0fde.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_e0fde.dir/build.make:97: recipe for target 'cmTC_e0fde' failed
+make[1]: *** [cmTC_e0fde] Error 1
+make[1]: Leaving directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e0fde/fast' failed
+make: *** [cmTC_e0fde/fast] Error 2
+
+File /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a70e9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a70e9.dir/build.make CMakeFiles/cmTC_a70e9.dir/build
+make[1]: Entering directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a70e9.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_a70e9.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a70e9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a70e9.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_a70e9.dir/CheckFunctionExists.c.o  -o cmTC_a70e9 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_a70e9.dir/build.make:97: recipe for target 'cmTC_a70e9' failed
+make[1]: *** [cmTC_a70e9] Error 1
+make[1]: Leaving directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a70e9/fast' failed
+make: *** [cmTC_a70e9/fast] Error 2
+
+
+Determining if the function uuid_generate_random exists in the uuid failed with the following output:
+Change Dir: /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4d0c1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4d0c1.dir/build.make CMakeFiles/cmTC_4d0c1.dir/build
+make[1]: Entering directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4d0c1.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -pipe -m64 -Wall -W -pthread -DCHECK_FUNCTION_EXISTS=uuid_generate_random   -o CMakeFiles/cmTC_4d0c1.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4d0c1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d0c1.dir/link.txt --verbose=1
+/usr/bin/cc   -pipe -m64 -Wall -W -pthread -DCHECK_FUNCTION_EXISTS=uuid_generate_random   -rdynamic  CMakeFiles/cmTC_4d0c1.dir/CheckFunctionExists.c.o  -o cmTC_4d0c1 -luuid 
+/usr/bin/ld: cannot find -luuid
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_4d0c1.dir/build.make:97: recipe for target 'cmTC_4d0c1' failed
+make[1]: *** [cmTC_4d0c1] Error 1
+make[1]: Leaving directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_4d0c1/fast' failed
+make: *** [cmTC_4d0c1/fast] Error 2
+
+
+Determining if the include file malloc/malloc.h exists failed with the following output:
+Change Dir: /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a95c7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a95c7.dir/build.make CMakeFiles/cmTC_a95c7.dir/build
+make[1]: Entering directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a95c7.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -pipe -m64 -Wall -W -pthread    -o CMakeFiles/cmTC_a95c7.dir/CheckIncludeFile.c.o   -c /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:27: fatal error: malloc/malloc.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_a95c7.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_a95c7.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_a95c7.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a95c7/fast' failed
+make: *** [cmTC_a95c7/fast] Error 2
+
+
+Determining if the include file ndir.h exists failed with the following output:
+Change Dir: /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_924a1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_924a1.dir/build.make CMakeFiles/cmTC_924a1.dir/build
+make[1]: Entering directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_924a1.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -pipe -m64 -Wall -W -pthread    -o CMakeFiles/cmTC_924a1.dir/CheckIncludeFile.c.o   -c /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:18: fatal error: ndir.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_924a1.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_924a1.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_924a1.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_924a1/fast' failed
+make: *** [cmTC_924a1/fast] Error 2
+
+
+Determining if the include file sys/ndir.h exists failed with the following output:
+Change Dir: /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_593cf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_593cf.dir/build.make CMakeFiles/cmTC_593cf.dir/build
+make[1]: Entering directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_593cf.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -pipe -m64 -Wall -W -pthread    -o CMakeFiles/cmTC_593cf.dir/CheckIncludeFile.c.o   -c /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:22: fatal error: sys/ndir.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_593cf.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_593cf.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_593cf.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_593cf/fast' failed
+make: *** [cmTC_593cf/fast] Error 2
+
+
+Determining if the include file valgrind/valgrind.h exists failed with the following output:
+Change Dir: /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7fd9f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7fd9f.dir/build.make CMakeFiles/cmTC_7fd9f.dir/build
+make[1]: Entering directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7fd9f.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -pipe -m64 -Wall -W -pthread    -o CMakeFiles/cmTC_7fd9f.dir/CheckIncludeFile.c.o   -c /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:31: fatal error: valgrind/valgrind.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_7fd9f.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_7fd9f.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_7fd9f.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7fd9f/fast' failed
+make: *** [cmTC_7fd9f/fast] Error 2
+
+
+Determining if the include file mach/mach.h exists failed with the following output:
+Change Dir: /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_37448/fast"
+/usr/bin/make -f CMakeFiles/cmTC_37448.dir/build.make CMakeFiles/cmTC_37448.dir/build
+make[1]: Entering directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_37448.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -pipe -m64 -Wall -W -pthread    -o CMakeFiles/cmTC_37448.dir/CheckIncludeFile.c.o   -c /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:23: fatal error: mach/mach.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_37448.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_37448.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_37448.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_37448/fast' failed
+make: *** [cmTC_37448/fast] Error 2
+
+
+Determining if the include file histedit.h exists failed with the following output:
+Change Dir: /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_36d69/fast"
+/usr/bin/make -f CMakeFiles/cmTC_36d69.dir/build.make CMakeFiles/cmTC_36d69.dir/build
+make[1]: Entering directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_36d69.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -pipe -m64 -Wall -W -pthread    -o CMakeFiles/cmTC_36d69.dir/CheckIncludeFile.c.o   -c /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:22: fatal error: histedit.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_36d69.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_36d69.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_36d69.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_36d69/fast' failed
+make: *** [cmTC_36d69/fast] Error 2
+
+
+Determining if the include file CrashReporterClient.h exists failed with the following output:
+Change Dir: /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a683c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a683c.dir/build.make CMakeFiles/cmTC_a683c.dir/build
+make[1]: Entering directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a683c.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -pipe -m64 -Wall -W -pthread    -o CMakeFiles/cmTC_a683c.dir/CheckIncludeFile.c.o   -c /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:33: fatal error: CrashReporterClient.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_a683c.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_a683c.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_a683c.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a683c/fast' failed
+make: *** [cmTC_a683c/fast] Error 2
+
+
+Determining if the function setupterm exists in the tinfo failed with the following output:
+Change Dir: /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d9a65/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d9a65.dir/build.make CMakeFiles/cmTC_d9a65.dir/build
+make[1]: Entering directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d9a65.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -pipe -m64 -Wall -W -pthread -DCHECK_FUNCTION_EXISTS=setupterm   -o CMakeFiles/cmTC_d9a65.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d9a65
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9a65.dir/link.txt --verbose=1
+/usr/bin/cc   -pipe -m64 -Wall -W -pthread -DCHECK_FUNCTION_EXISTS=setupterm   -rdynamic  CMakeFiles/cmTC_d9a65.dir/CheckFunctionExists.c.o  -o cmTC_d9a65 -ltinfo -lm 
+/usr/bin/ld: cannot find -ltinfo
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_d9a65.dir/build.make:97: recipe for target 'cmTC_d9a65' failed
+make[1]: *** [cmTC_d9a65] Error 1
+make[1]: Leaving directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d9a65/fast' failed
+make: *** [cmTC_d9a65/fast] Error 2
+
+
+Determining if the function setupterm exists in the terminfo failed with the following output:
+Change Dir: /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fcc46/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fcc46.dir/build.make CMakeFiles/cmTC_fcc46.dir/build
+make[1]: Entering directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fcc46.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -pipe -m64 -Wall -W -pthread -DCHECK_FUNCTION_EXISTS=setupterm   -o CMakeFiles/cmTC_fcc46.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fcc46
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fcc46.dir/link.txt --verbose=1
+/usr/bin/cc   -pipe -m64 -Wall -W -pthread -DCHECK_FUNCTION_EXISTS=setupterm   -rdynamic  CMakeFiles/cmTC_fcc46.dir/CheckFunctionExists.c.o  -o cmTC_fcc46 -lterminfo -lm 
+/usr/bin/ld: cannot find -lterminfo
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_fcc46.dir/build.make:97: recipe for target 'cmTC_fcc46' failed
+make[1]: *** [cmTC_fcc46] Error 1
+make[1]: Leaving directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_fcc46/fast' failed
+make: *** [cmTC_fcc46/fast] Error 2
+
+
+Determining if the function setupterm exists in the curses failed with the following output:
+Change Dir: /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e41fd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e41fd.dir/build.make CMakeFiles/cmTC_e41fd.dir/build
+make[1]: Entering directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e41fd.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -pipe -m64 -Wall -W -pthread -DCHECK_FUNCTION_EXISTS=setupterm   -o CMakeFiles/cmTC_e41fd.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e41fd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e41fd.dir/link.txt --verbose=1
+/usr/bin/cc   -pipe -m64 -Wall -W -pthread -DCHECK_FUNCTION_EXISTS=setupterm   -rdynamic  CMakeFiles/cmTC_e41fd.dir/CheckFunctionExists.c.o  -o cmTC_e41fd -lcurses -lm 
+/usr/bin/ld: cannot find -lcurses
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_e41fd.dir/build.make:97: recipe for target 'cmTC_e41fd' failed
+make[1]: *** [cmTC_e41fd] Error 1
+make[1]: Leaving directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e41fd/fast' failed
+make: *** [cmTC_e41fd/fast] Error 2
+
+
+Determining if the function setupterm exists in the ncurses failed with the following output:
+Change Dir: /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_efce2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_efce2.dir/build.make CMakeFiles/cmTC_efce2.dir/build
+make[1]: Entering directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_efce2.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -pipe -m64 -Wall -W -pthread -DCHECK_FUNCTION_EXISTS=setupterm   -o CMakeFiles/cmTC_efce2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_efce2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_efce2.dir/link.txt --verbose=1
+/usr/bin/cc   -pipe -m64 -Wall -W -pthread -DCHECK_FUNCTION_EXISTS=setupterm   -rdynamic  CMakeFiles/cmTC_efce2.dir/CheckFunctionExists.c.o  -o cmTC_efce2 -lncurses -lm 
+/usr/bin/ld: cannot find -lncurses
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_efce2.dir/build.make:97: recipe for target 'cmTC_efce2' failed
+make[1]: *** [cmTC_efce2] Error 1
+make[1]: Leaving directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_efce2/fast' failed
+make: *** [cmTC_efce2/fast] Error 2
+
+
+Determining if the function setupterm exists in the ncursesw failed with the following output:
+Change Dir: /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e1d16/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e1d16.dir/build.make CMakeFiles/cmTC_e1d16.dir/build
+make[1]: Entering directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e1d16.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -pipe -m64 -Wall -W -pthread -DCHECK_FUNCTION_EXISTS=setupterm   -o CMakeFiles/cmTC_e1d16.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e1d16
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1d16.dir/link.txt --verbose=1
+/usr/bin/cc   -pipe -m64 -Wall -W -pthread -DCHECK_FUNCTION_EXISTS=setupterm   -rdynamic  CMakeFiles/cmTC_e1d16.dir/CheckFunctionExists.c.o  -o cmTC_e1d16 -lncursesw -lm 
+/usr/bin/ld: cannot find -lncursesw
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_e1d16.dir/build.make:97: recipe for target 'cmTC_e1d16' failed
+make[1]: *** [cmTC_e1d16] Error 1
+make[1]: Leaving directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e1d16/fast' failed
+make: *** [cmTC_e1d16/fast] Error 2
+
+
+Determining if the function xar_open exists in the xar failed with the following output:
+Change Dir: /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5a6ba/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5a6ba.dir/build.make CMakeFiles/cmTC_5a6ba.dir/build
+make[1]: Entering directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5a6ba.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -pipe -m64 -Wall -W -pthread -DCHECK_FUNCTION_EXISTS=xar_open   -o CMakeFiles/cmTC_5a6ba.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5a6ba
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a6ba.dir/link.txt --verbose=1
+/usr/bin/cc   -pipe -m64 -Wall -W -pthread -DCHECK_FUNCTION_EXISTS=xar_open   -rdynamic  CMakeFiles/cmTC_5a6ba.dir/CheckFunctionExists.c.o  -o cmTC_5a6ba -lxar -lm 
+/usr/bin/ld: cannot find -lxar
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_5a6ba.dir/build.make:97: recipe for target 'cmTC_5a6ba' failed
+make[1]: *** [cmTC_5a6ba] Error 1
+make[1]: Leaving directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5a6ba/fast' failed
+make: *** [cmTC_5a6ba/fast] Error 2
+
+
+Determining if the arc4random exist failed with the following output:
+Change Dir: /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_02006/fast"
+/usr/bin/make -f CMakeFiles/cmTC_02006.dir/build.make CMakeFiles/cmTC_02006.dir/build
+make[1]: Entering directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_02006.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -pipe -m64 -Wall -W -pthread    -o CMakeFiles/cmTC_02006.dir/CheckSymbolExists.c.o   -c /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: 'arc4random' undeclared (first use in this function)
+   return ((int*)(&arc4random))[argc];
+                   ^
+/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:4:14: warning: parameter 'argc' set but not used [-Wunused-but-set-parameter]
+ int main(int argc, char** argv)
+              ^
+CMakeFiles/cmTC_02006.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_02006.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_02006.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_02006/fast' failed
+make: *** [cmTC_02006/fast] Error 2
+
+File /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef arc4random
+  return ((int*)(&arc4random))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the mallctl exist failed with the following output:
+Change Dir: /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6486a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6486a.dir/build.make CMakeFiles/cmTC_6486a.dir/build
+make[1]: Entering directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6486a.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -pipe -m64 -Wall -W -pthread    -o CMakeFiles/cmTC_6486a.dir/CheckSymbolExists.c.o   -c /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:23: fatal error: malloc_np.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_6486a.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_6486a.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_6486a.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_6486a/fast' failed
+make: *** [cmTC_6486a/fast] Error 2
+
+File /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc_np.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mallctl
+  return ((int*)(&mallctl))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the malloc_zone_statistics exist failed with the following output:
+Change Dir: /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_79c3c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_79c3c.dir/build.make CMakeFiles/cmTC_79c3c.dir/build
+make[1]: Entering directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_79c3c.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -pipe -m64 -Wall -W -pthread    -o CMakeFiles/cmTC_79c3c.dir/CheckSymbolExists.c.o   -c /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:27: fatal error: malloc/malloc.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_79c3c.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_79c3c.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_79c3c.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_79c3c/fast' failed
+make: *** [cmTC_79c3c/fast] Error 2
+
+File /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc/malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef malloc_zone_statistics
+  return ((int*)(&malloc_zone_statistics))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strerror_s exist failed with the following output:
+Change Dir: /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_74c38/fast"
+/usr/bin/make -f CMakeFiles/cmTC_74c38.dir/build.make CMakeFiles/cmTC_74c38.dir/build
+make[1]: Entering directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_74c38.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -pipe -m64 -Wall -W -pthread    -o CMakeFiles/cmTC_74c38.dir/CheckSymbolExists.c.o   -c /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: 'strerror_s' undeclared (first use in this function)
+   return ((int*)(&strerror_s))[argc];
+                   ^
+/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:4:14: warning: parameter 'argc' set but not used [-Wunused-but-set-parameter]
+ int main(int argc, char** argv)
+              ^
+CMakeFiles/cmTC_74c38.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_74c38.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_74c38.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_74c38/fast' failed
+make: *** [cmTC_74c38/fast] Error 2
+
+File /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror_s
+  return ((int*)(&strerror_s))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the dladdr exist failed with the following output:
+Change Dir: /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e4c70/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e4c70.dir/build.make CMakeFiles/cmTC_e4c70.dir/build
+make[1]: Entering directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e4c70.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -pipe -m64 -Wall -W -pthread    -o CMakeFiles/cmTC_e4c70.dir/CheckSymbolExists.c.o   -c /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: 'dladdr' undeclared (first use in this function)
+   return ((int*)(&dladdr))[argc];
+                   ^
+/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:4:14: warning: parameter 'argc' set but not used [-Wunused-but-set-parameter]
+ int main(int argc, char** argv)
+              ^
+CMakeFiles/cmTC_e4c70.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_e4c70.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_e4c70.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e4c70/fast' failed
+make: *** [cmTC_e4c70/fast] Error 2
+
+File /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <dlfcn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef dladdr
+  return ((int*)(&dladdr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test SUPPORTS_GNU_ZERO_VARIADIC_MACRO_ARGUMENTS_FLAG failed with the following output:
+Change Dir: /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c76dd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c76dd.dir/build.make CMakeFiles/cmTC_c76dd.dir/build
+make[1]: Entering directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c76dd.dir/src.cxx.o
+/usr/bin/c++     -pipe -m64  -Wshadow -Wall -W -Woverloaded-virtual -fsigned-char -pthread -std=c++11 -fvisibility=hidden -DSUPPORTS_GNU_ZERO_VARIADIC_MACRO_ARGUMENTS_FLAG   -Wgnu-zero-variadic-macro-arguments -o CMakeFiles/cmTC_c76dd.dir/src.cxx.o -c /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wgnu-zero-variadic-macro-arguments'
+CMakeFiles/cmTC_c76dd.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_c76dd.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_c76dd.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c76dd/fast' failed
+make: *** [cmTC_c76dd/fast] Error 2
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_NO_NESTED_ANON_TYPES_FLAG failed with the following output:
+Change Dir: /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e2ab1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e2ab1.dir/build.make CMakeFiles/cmTC_e2ab1.dir/build
+make[1]: Entering directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e2ab1.dir/src.cxx.o
+/usr/bin/c++     -pipe -m64  -Wshadow -Wall -W -Woverloaded-virtual -fsigned-char -pthread -std=c++11 -fvisibility=hidden -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -w -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -fno-strict-aliasing -DCXX_SUPPORTS_NO_NESTED_ANON_TYPES_FLAG   -Werror -Wnested-anon-types -o CMakeFiles/cmTC_e2ab1.dir/src.cxx.o -c /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wnested-anon-types'
+CMakeFiles/cmTC_e2ab1.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_e2ab1.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_e2ab1.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e2ab1/fast' failed
+make: *** [cmTC_e2ab1/fast] Error 2
+
+Source file was:
+int main() { return 0;}
+Determining if the m exist failed with the following output:
+Change Dir: /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5208e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5208e.dir/build.make CMakeFiles/cmTC_5208e.dir/build
+make[1]: Entering directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5208e.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -pipe -m64 -Wall -W -pthread    -o CMakeFiles/cmTC_5208e.dir/CheckSymbolExists.c.o   -c /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:25: fatal error: __sqrt_finite: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_5208e.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_5208e.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_5208e.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5208e/fast' failed
+make: *** [cmTC_5208e/fast] Error 2
+
+File /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <__sqrt_finite>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef m
+  return ((int*)(&m))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test found_stdstringview failed with the following output:
+Change Dir: /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4b88a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4b88a.dir/build.make CMakeFiles/cmTC_4b88a.dir/build
+make[1]: Entering directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4b88a.dir/src.cxx.o
+/usr/bin/c++     -pipe -m64  -Wshadow -Wall -W -Woverloaded-virtual -fsigned-char -pthread -std=c++11 -Dfound_stdstringview   -o CMakeFiles/cmTC_4b88a.dir/src.cxx.o -c /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/src.cxx
+/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/src.cxx:1:23: fatal error: string_view: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_4b88a.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_4b88a.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_4b88a.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_4b88a/fast' failed
+make: *** [cmTC_4b88a/fast] Error 2
+
+Source file was:
+#include <string_view>
+  int main() { char arr[3] = {'B', 'a', 'r'}; std::string_view strv(arr, sizeof(arr)); return 0;}
+Performing C++ SOURCE FILE Test found_stdexpstringview failed with the following output:
+Change Dir: /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_be7f7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_be7f7.dir/build.make CMakeFiles/cmTC_be7f7.dir/build
+make[1]: Entering directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_be7f7.dir/src.cxx.o
+/usr/bin/c++     -pipe -m64  -Wshadow -Wall -W -Woverloaded-virtual -fsigned-char -pthread -std=c++11 -Dfound_stdexpstringview   -o CMakeFiles/cmTC_be7f7.dir/src.cxx.o -c /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/src.cxx
+In file included from /usr/include/c++/5/experimental/string_view:39:0,
+                 from /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/src.cxx:1:
+/usr/include/c++/5/bits/c++14_warning.h:32:2: error: #error This file requires compiler and library support for the forthcoming ISO C++ 2014 standard. This support is currently experimental, and must be enabled with the -std=c++1y or -std=gnu++1y compiler options.
+ #error This file requires compiler and library support for the forthcoming \
+  ^
+/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/src.cxx: In function 'int main()':
+/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/src.cxx:2:53: error: 'std::experimental' has not been declared
+    int main() { char arr[3] = {'B', 'a', 'r'}; std::experimental::string_view strv(arr, sizeof(arr)); return 0;}
+                                                     ^
+/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/src.cxx:2:22: warning: unused variable 'arr' [-Wunused-variable]
+    int main() { char arr[3] = {'B', 'a', 'r'}; std::experimental::string_view strv(arr, sizeof(arr)); return 0;}
+                      ^
+CMakeFiles/cmTC_be7f7.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_be7f7.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_be7f7.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_be7f7/fast' failed
+make: *** [cmTC_be7f7/fast] Error 2
+
+Source file was:
+#include <experimental/string_view>
+   int main() { char arr[3] = {'B', 'a', 'r'}; std::experimental::string_view strv(arr, sizeof(arr)); return 0;}
+Performing C++ SOURCE FILE Test found_stdapply failed with the following output:
+Change Dir: /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d8bf2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d8bf2.dir/build.make CMakeFiles/cmTC_d8bf2.dir/build
+make[1]: Entering directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d8bf2.dir/src.cxx.o
+/usr/bin/c++     -pipe -m64  -Wshadow -Wall -W -Woverloaded-virtual -fsigned-char -pthread -std=c++11 -Dfound_stdapply   -o CMakeFiles/cmTC_d8bf2.dir/src.cxx.o -c /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/src.cxx
+/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/src.cxx: In function 'int main()':
+/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/src.cxx:2:14: error: 'apply' is not a member of 'std'
+ int main() { std::apply([](int, int){}, std::make_tuple(1,2)); return 0;}
+              ^
+CMakeFiles/cmTC_d8bf2.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_d8bf2.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_d8bf2.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d8bf2/fast' failed
+make: *** [cmTC_d8bf2/fast] Error 2
+
+Source file was:
+#include <tuple>
+int main() { std::apply([](int, int){}, std::make_tuple(1,2)); return 0;}
+Performing C++ SOURCE FILE Test found_stdinvoke failed with the following output:
+Change Dir: /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9c5d0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9c5d0.dir/build.make CMakeFiles/cmTC_9c5d0.dir/build
+make[1]: Entering directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9c5d0.dir/src.cxx.o
+/usr/bin/c++     -pipe -m64  -Wshadow -Wall -W -Woverloaded-virtual -fsigned-char -pthread -std=c++11 -Dfound_stdinvoke   -o CMakeFiles/cmTC_9c5d0.dir/src.cxx.o -c /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/src.cxx
+/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/src.cxx: In function 'int main()':
+/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/src.cxx:2:21: error: 'invoke' is not a member of 'std'
+ int main() { return std::invoke([](int i){return i;}, 0); }
+                     ^
+CMakeFiles/cmTC_9c5d0.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_9c5d0.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_9c5d0.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9c5d0/fast' failed
+make: *** [cmTC_9c5d0/fast] Error 2
+
+Source file was:
+#include <functional>
+int main() { return std::invoke([](int i){return i;}, 0); }
+Performing C++ SOURCE FILE Test found_stdindexsequence failed with the following output:
+Change Dir: /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_46d75/fast"
+/usr/bin/make -f CMakeFiles/cmTC_46d75.dir/build.make CMakeFiles/cmTC_46d75.dir/build
+make[1]: Entering directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_46d75.dir/src.cxx.o
+/usr/bin/c++     -pipe -m64  -Wshadow -Wall -W -Woverloaded-virtual -fsigned-char -pthread -std=c++11 -Dfound_stdindexsequence   -o CMakeFiles/cmTC_46d75.dir/src.cxx.o -c /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/src.cxx
+/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/src.cxx: In function 'int main()':
+/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/src.cxx:4:30: error: 'integer_sequence' is not a member of 'std'
+   static_assert(std::is_same<std::integer_sequence<std::size_t, 0, 1, 2>, std::make_index_sequence<3>>::value, "");
+                              ^
+/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/src.cxx:4:30: error: 'integer_sequence' is not a member of 'std'
+/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/src.cxx:4:72: error: wrong number of template arguments (4, should be 2)
+   static_assert(std::is_same<std::integer_sequence<std::size_t, 0, 1, 2>, std::make_index_sequence<3>>::value, "");
+                                                                        ^
+In file included from /usr/include/c++/5/bits/move.h:57:0,
+                 from /usr/include/c++/5/bits/stl_pair.h:59,
+                 from /usr/include/c++/5/utility:70,
+                 from /media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/src.cxx:1:
+/usr/include/c++/5/type_traits:958:12: note: provided for 'template<class, class> struct std::is_same'
+     struct is_same;
+            ^
+/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/src.cxx:4:75: error: expected string-literal before 'std'
+   static_assert(std::is_same<std::integer_sequence<std::size_t, 0, 1, 2>, std::make_index_sequence<3>>::value, "");
+                                                                           ^
+/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp/src.cxx:4:75: error: expected ')' before 'std'
+CMakeFiles/cmTC_46d75.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_46d75.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_46d75.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/media/aniq55/WORK/root/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_46d75/fast' failed
+make: *** [cmTC_46d75/fast] Error 2
+
+Source file was:
+#include <utility>
+#include <type_traits>
+int main() {
+  static_assert(std::is_same<std::integer_sequence<std::size_t, 0, 1, 2>, std::make_index_sequence<3>>::value, "");
+  return 0;
+}

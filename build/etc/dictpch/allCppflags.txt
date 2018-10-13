@@ -1,0 +1,11 @@
+-I/usr/include
+-I/usr/include/freetype2
+-I/usr/include/python2.7
+-I/usr/include/x86_64-linux-gnu/freetype2
+-I/usr/lib/python2.7/dist-packages/numpy/core/include
+-m64 
+-pthread
+-fsigned-char
+-std=c++11
+-pipe
+-DSYSTEM_TYPE_unix

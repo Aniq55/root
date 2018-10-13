@@ -1,0 +1,1 @@
+cmd='/usr/bin/cmake;-DCMAKE_C_COMPILER=/usr/bin/cc;-DCMAKE_C_FLAGS= -pipe -m64 -Wall -W -fPIC -pthread;-DCMAKE_OSX_SYSROOT=;-DCMAKE_OSX_DEPLOYMENT_TARGET=;-DBUILD_SHARED_LIBS=OFF;-DCMAKE_INSTALL_LIBDIR=lib;-GUnix Makefiles;<SOURCE_DIR>/contrib/cmake_unofficial'

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/media/aniq55/WORK/root/core/clingutils/inc/root_std_complex.h
+complex
+-
+
+/media/aniq55/WORK/root/core/clingutils/src/complexLinkdef.h
+complex
+-
+root_std_complex.h
+/media/aniq55/WORK/root/core/clingutils/src/root_std_complex.h
+
+include/root_std_complex.h
+complex
+-
+

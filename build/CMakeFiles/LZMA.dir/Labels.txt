@@ -1,0 +1,13 @@
+# Target labels
+ LZMA
+# Source files and their labels
+/media/aniq55/WORK/root/build/CMakeFiles/LZMA
+/media/aniq55/WORK/root/build/CMakeFiles/LZMA.rule
+/media/aniq55/WORK/root/build/CMakeFiles/LZMA-complete.rule
+/media/aniq55/WORK/root/build/LZMA-prefix/src/LZMA-stamp/LZMA-install.rule
+/media/aniq55/WORK/root/build/LZMA-prefix/src/LZMA-stamp/LZMA-mkdir.rule
+/media/aniq55/WORK/root/build/LZMA-prefix/src/LZMA-stamp/LZMA-download.rule
+/media/aniq55/WORK/root/build/LZMA-prefix/src/LZMA-stamp/LZMA-update.rule
+/media/aniq55/WORK/root/build/LZMA-prefix/src/LZMA-stamp/LZMA-patch.rule
+/media/aniq55/WORK/root/build/LZMA-prefix/src/LZMA-stamp/LZMA-configure.rule
+/media/aniq55/WORK/root/build/LZMA-prefix/src/LZMA-stamp/LZMA-build.rule

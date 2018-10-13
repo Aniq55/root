@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/media/aniq55/WORK/root/build/CMakeFiles/AFTERIMAGE"
+		},
+		{
+			"file" : "/media/aniq55/WORK/root/build/CMakeFiles/AFTERIMAGE.rule"
+		},
+		{
+			"file" : "/media/aniq55/WORK/root/build/CMakeFiles/AFTERIMAGE-complete.rule"
+		},
+		{
+			"file" : "/media/aniq55/WORK/root/build/AFTERIMAGE-prefix/src/AFTERIMAGE-stamp/AFTERIMAGE-install.rule"
+		},
+		{
+			"file" : "/media/aniq55/WORK/root/build/AFTERIMAGE-prefix/src/AFTERIMAGE-stamp/AFTERIMAGE-mkdir.rule"
+		},
+		{
+			"file" : "/media/aniq55/WORK/root/build/AFTERIMAGE-prefix/src/AFTERIMAGE-stamp/AFTERIMAGE-download.rule"
+		},
+		{
+			"file" : "/media/aniq55/WORK/root/build/AFTERIMAGE-prefix/src/AFTERIMAGE-stamp/AFTERIMAGE-update.rule"
+		},
+		{
+			"file" : "/media/aniq55/WORK/root/build/AFTERIMAGE-prefix/src/AFTERIMAGE-stamp/AFTERIMAGE-patch.rule"
+		},
+		{
+			"file" : "/media/aniq55/WORK/root/build/AFTERIMAGE-prefix/src/AFTERIMAGE-stamp/AFTERIMAGE-configure.rule"
+		},
+		{
+			"file" : "/media/aniq55/WORK/root/build/AFTERIMAGE-prefix/src/AFTERIMAGE-stamp/AFTERIMAGE-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"AFTERIMAGE"
+		],
+		"name" : "AFTERIMAGE"
+	}
+}

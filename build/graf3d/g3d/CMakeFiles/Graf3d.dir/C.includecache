@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/media/aniq55/WORK/root/graf3d/g3d/src/X3DBuffer.c
+X3DBuffer.h
+/media/aniq55/WORK/root/graf3d/g3d/src/X3DBuffer.h
+../../x3d/src/X3DDefs.h
+/media/aniq55/WORK/root/graf3d/x3d/src/X3DDefs.h
+stdio.h
+-
+stdlib.h
+-
+
+/media/aniq55/WORK/root/graf3d/x3d/src/X3DDefs.h
+
+include/X3DBuffer.h
+

@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/media/aniq55/WORK/root/builtins/xxhash/xxhash.c
+stdlib.h
+-
+string.h
+-
+xxhash.h
+/media/aniq55/WORK/root/builtins/xxhash/xxhash.h
+stdint.h
+-
+stdint.h
+-
+
+/media/aniq55/WORK/root/builtins/xxhash/xxhash.h
+stddef.h
+-
+xxhash.c
+/media/aniq55/WORK/root/builtins/xxhash/xxhash.c
+

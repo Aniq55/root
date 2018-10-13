@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/media/aniq55/WORK/root/build/rmkdepend/def.h
+stdio.h
+-
+string.h
+-
+ctype.h
+-
+sys/types.h
+-
+fcntl.h
+-
+sys/stat.h
+-
+stdlib.h
+-
+
+/media/aniq55/WORK/root/build/rmkdepend/mainroot.cxx
+string
+-
+signal.h
+-
+def.h
+/media/aniq55/WORK/root/build/rmkdepend/def.h
+unistd.h
+-
+../../core/dictgen/res/cygpath.h
+/media/aniq55/WORK/root/core/dictgen/res/cygpath.h
+
+/media/aniq55/WORK/root/core/dictgen/res/cygpath.h
+stdio.h
+-
+stdlib.h
+-
+direct.h
+-
+string
+-
+

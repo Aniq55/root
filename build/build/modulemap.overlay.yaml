@@ -1,0 +1,19 @@
+{
+  'version': 0,
+  'roots': [
+    { 'name': '/usr/include/c++/5', 'type': 'directory',
+      'contents': [
+        { 'name': 'module.modulemap', 'type': 'file',
+          'external-contents': '/usr/local/include/stl.modulemap'
+        }
+      ]
+    },
+    { 'name': '/usr/include/', 'type': 'directory',
+      'contents': [
+        { 'name': 'module.modulemap', 'type': 'file',
+          'external-contents': '/usr/local/include/libc.modulemap'
+        }
+      ]
+    }
+  ]
+}

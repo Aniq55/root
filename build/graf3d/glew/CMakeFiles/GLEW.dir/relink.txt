@@ -1,0 +1,1 @@
+/usr/bin/cc  -fPIC  -pipe -m64 -Wall -W -pthread -O3 -g -DNDEBUG  -Wl,--no-undefined -Wl,--hash-style="both" -shared -Wl,-soname,libGLEW.so -o CMakeFiles/CMakeRelink.dir/libGLEW.so CMakeFiles/GLEW.dir/src/glew.c.o /usr/lib/x86_64-linux-gnu/libGLU.so /usr/lib/x86_64-linux-gnu/libGL.so 

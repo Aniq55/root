@@ -1,0 +1,11 @@
+-- verifying file...
+     file='/media/aniq55/WORK/root/core/lzma/src/xz-5.2.1.tar.gz'
+-- verifying file... done
+-- extracting...
+     src='/media/aniq55/WORK/root/core/lzma/src/xz-5.2.1.tar.gz'
+     dst='/media/aniq55/WORK/root/build/LZMA-prefix/src/LZMA'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done

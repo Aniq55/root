@@ -1,0 +1,61 @@
+{ decls }
+namespace ROOT { namespace Internal { namespace RDF {  } } }
+namespace ROOT { namespace RDF {  } }
+namespace ROOT { namespace Detail { namespace RDF {  } } }
+namespace ROOT { namespace Internal { namespace RDF { template <typename T> class TColumnValue; } } }
+namespace ROOT { namespace Detail { namespace RDF { class RFilterBase; } } }
+namespace ROOT { namespace Detail { namespace RDF { class RCustomColumnBase; } } }
+namespace ROOT {  }
+
+[ libROOTDataFrame.so ]
+# List of selected classes
+class ROOT::Detail::RDF::RCustomColumnBase
+class ROOT::Detail::RDF::RFilterBase
+class ROOT::Detail::RDF::RJittedCustomColumn
+class ROOT::Detail::RDF::RJittedFilter
+class ROOT::Detail::RDF::RLoopManager
+class ROOT::Detail::RDF::RRangeBase
+class ROOT::Internal::RDF::CountHelper
+class ROOT::Internal::RDF::FillHelper
+class ROOT::Internal::RDF::RIgnoreErrorLevelRAII
+class ROOT::Internal::RDF::TColumnValue<Long64_t>
+class ROOT::Internal::RDF::TColumnValue<ULong64_t>
+class ROOT::Internal::RDF::TColumnValue<char>
+class ROOT::Internal::RDF::TColumnValue<double>
+class ROOT::Internal::RDF::TColumnValue<float>
+class ROOT::Internal::RDF::TColumnValue<int>
+class ROOT::Internal::RDF::TColumnValue<std::vector<Long64_t> >
+class ROOT::Internal::RDF::TColumnValue<std::vector<ULong64_t> >
+class ROOT::Internal::RDF::TColumnValue<std::vector<char> >
+class ROOT::Internal::RDF::TColumnValue<std::vector<double> >
+class ROOT::Internal::RDF::TColumnValue<std::vector<float> >
+class ROOT::Internal::RDF::TColumnValue<std::vector<int> >
+class ROOT::Internal::RDF::TColumnValue<std::vector<unsigned char> >
+class ROOT::Internal::RDF::TColumnValue<std::vector<unsigned int> >
+class ROOT::Internal::RDF::TColumnValue<unsigned char>
+class ROOT::Internal::RDF::TColumnValue<unsigned int>
+class ROOT::Internal::RDF::TColumnValue<vector<Long64_t> >
+class ROOT::Internal::RDF::TColumnValue<vector<ULong64_t> >
+class ROOT::Internal::RDF::TColumnValue<vector<char> >
+class ROOT::Internal::RDF::TColumnValue<vector<double> >
+class ROOT::Internal::RDF::TColumnValue<vector<float> >
+class ROOT::Internal::RDF::TColumnValue<vector<int> >
+class ROOT::Internal::RDF::TColumnValue<vector<unsigned char> >
+class ROOT::Internal::RDF::TColumnValue<vector<unsigned int> >
+class ROOT::RDF::RCsvDS
+class ROOT::RDF::RInterface<ROOT::Detail::RDF::RCustomColumnBase,void>
+class ROOT::RDF::RInterface<ROOT::Detail::RDF::RCustomColumnBase>
+class ROOT::RDF::RInterface<ROOT::Detail::RDF::RFilterBase,void>
+class ROOT::RDF::RInterface<ROOT::Detail::RDF::RFilterBase>
+class ROOT::RDF::RRootDS
+class ROOT::RDF::RTrivialDS
+class ROOT::RDF::TH1DModel
+class ROOT::RDF::TH2DModel
+class ROOT::RDF::TH3DModel
+class ROOT::RDF::TProfile1DModel
+class ROOT::RDF::TProfile2DModel
+class ROOT::RDataFrame
+# List of selected namespaces
+namespace ROOT::Detail::RDF
+namespace ROOT::RDF
+namespace ROOT::Internal::RDF

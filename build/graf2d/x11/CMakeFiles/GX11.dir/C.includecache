@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/media/aniq55/WORK/root/graf2d/x11/src/gifdecode.c
+stdio.h
+-
+string.h
+-
+
+/media/aniq55/WORK/root/graf2d/x11/src/gifencode.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
+/media/aniq55/WORK/root/graf2d/x11/src/gifquantize.c
+stdio.h
+-
+stdlib.h
+-
+

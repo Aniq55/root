@@ -1,0 +1,1 @@
+/usr/bin/cc   -pipe -m64 -Wall -W -pthread -fPIC -Werror=date-time -w -ffunction-sections -fdata-sections -O3 -DNDEBUG   -rdynamic -Wl,-allow-shlib-undefined  -Wl,-rpath-link,/media/aniq55/WORK/root/build/interpreter/llvm/src/./lib  -Wl,-O3 -Wl,--gc-sections CMakeFiles/count.dir/count.c.o  -o ../../bin/count -lpthread 

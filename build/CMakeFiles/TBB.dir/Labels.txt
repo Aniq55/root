@@ -1,0 +1,13 @@
+# Target labels
+ TBB
+# Source files and their labels
+/media/aniq55/WORK/root/build/CMakeFiles/TBB
+/media/aniq55/WORK/root/build/CMakeFiles/TBB.rule
+/media/aniq55/WORK/root/build/CMakeFiles/TBB-complete.rule
+/media/aniq55/WORK/root/build/TBB-prefix/src/TBB-stamp/TBB-install.rule
+/media/aniq55/WORK/root/build/TBB-prefix/src/TBB-stamp/TBB-mkdir.rule
+/media/aniq55/WORK/root/build/TBB-prefix/src/TBB-stamp/TBB-download.rule
+/media/aniq55/WORK/root/build/TBB-prefix/src/TBB-stamp/TBB-update.rule
+/media/aniq55/WORK/root/build/TBB-prefix/src/TBB-stamp/TBB-patch.rule
+/media/aniq55/WORK/root/build/TBB-prefix/src/TBB-stamp/TBB-configure.rule
+/media/aniq55/WORK/root/build/TBB-prefix/src/TBB-stamp/TBB-build.rule
